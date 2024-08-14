@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Dog Clinic</title>
+    <title>Bootstrap demo</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
@@ -13,205 +13,13 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <style>
-      *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-/* border: 2px solid red; */
-}
-
-html ,body{
-    height: 100%;
-    width: 100%;
-}
-
-#wrap{
-    height: 100%;
-    width: 100%;
-     
-}
-.nav-item .nav-link{
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: white;
-}
-.navbar{
-    background-color: var(--main-nav-color);
-}
-
-:root{
-    --main-nav-color:#daac00;
-    --main-vernitary-color:#fcc302;
-    --main-vernitarybutton-color:#00bec9;
-    --main-footer-color:#3a3b3b;
-
-}
-.vernitary{
-background-color: var(--main-vernitary-color);
-padding: 20px;
-
-}
-
-.rt{
-    /* background-image: url(../Assets/Group\ 7.png); */
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../Assets/Group\ 7.png'); /* Replace with your image URL */
-    background-size: cover; /* Ensures the image covers the entire area */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    z-index: -1; /* Places the background behind the content */
-
-}
-
-
-a{
-    justify-content: space-between;
-}
-
-.a{
-   background-color:var(--main-vernitarybutton-color);
-   color: rgb(255, 253, 253);
-  }
-
-  .b{
-    color: var(--main-vernitary-color);
-  }
-
-#input{
-background:var(--main-vernitary-color);
-outline: 2px solid #fcc302;
-
-
-
-}  
-
-#input::placeholder{
-    color: white;
-
-}
-
-
-.jumbotron{
-
-    display:flex;
-
-    flex-direction: column;
-    height: 500px;
-    justify-content: center;
-
-}
-
-.vernitarybutton {
-    display: flex;
-    gap: 20px;
-   
-}
-
-.bt{
-    color: white;
-}
-
-
-.overlay{
-        position: fixed; /* Sit on top of the page content */
-        display: none; /* Hidden by default */
-        width: 100%; /* Full width (cover the whole page) */
-        height: 100%; /* Full height (cover the whole page) */
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-        cursor: pointer; /* Add a pointer on hover */
-}
-
-.img1{
-    display: flex;
-    justify-content: center;
-    padding: 10%;
-    
-}
-
-
-
-.main {
-    display: flex;
-    flex-direction: column;
-    gap: 30%;
-    height: 100%;
-    width: 100%;
-}
-
-.img2{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-margin: 10%;
-}
-
-.footer {
-    background-color: var(--main-footer-color);
-color: white;
- 
-    
-}
-.list-group {
-
-    display: flex;
-  
-    margin: 10%;
-}
-
-.log{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.pic1{
-    height: 50px;
-    width: 50px;
-}
-
-.card-title1{
-    color: white;
-}
-.container1{
-    
-    
-    
-    
-    
-    position: relative;
-    z-index: 1; /* Ensures the content appears above the background */
-    color: white;
-    text-align: center;
-    margin-top: 15%;
-
-}
-
-.row1{
-    display: flex;
-
-    
-}
-
-
-    </style>
+    <link rel="stylesheet" href="../css/stylew.css" />
   </head>
   <body>
     <div id="wrap">
       <nav class="navbar navbar-expand-lg ">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="./Assets/logo.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="./logo.png" alt=""></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -282,7 +90,7 @@ color: white;
 
             <div class="col-lg-6 col-md-5 col-sm-12">
               <div class="img w-50 mx-auto">
-                <img src="../Assets/Dog.png" alt="dog" class="img-fluid" />
+                <img src="./Dog.png" alt="dog" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -310,7 +118,7 @@ color: white;
 
             <div class="col-lg-6 col-md-5 col-sm-12">
               <div class="img2 mx-auto">
-                <img src="../Assets/anotherDog.png" alt="dog" class="img-fluid" />
+                <img src="./anotherDog.png" alt="dog" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -333,7 +141,7 @@ color: white;
             </div>
             <div class="col-lg-4">
               <div class="  " style="width: 18rem">
-                <img src="../Assets/blogpost2.png" class="card-img-top" alt="..." />
+                <img src="./blogpost2.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title text-center pt-4 bt ">Vernitare</h5>
                   <p class="card-text bt ">
@@ -346,7 +154,7 @@ color: white;
 
             <div class="col-lg-4">
               <div class="" style="width: 18rem">
-                <img src="../Assets/blogpost3.png" class="card-img-top" alt="..." />
+                <img src="./blogpost3.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title text-center pt-4 bt ">Vernitare</h5>
                   <p class="card-text bt ">
@@ -359,7 +167,7 @@ color: white;
 
             <div class="col-lg-4">
               <div class="" style="width: 18rem">
-                <img src="../Assets/blogpost1.png" class="card-img-top" alt="..." />
+                <img src="./blogpost1.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title text-center pt-4 bt ">Vernitare</h5>
                   <p class="card-text bt ">
@@ -394,7 +202,7 @@ color: white;
 
             <div class="col-lg-6 col-md-5 col-sm-12">
               <div class="img2 mx-auto">
-                <img src="../Assets/anotherDog.png" alt="dog" class="img-fluid" />
+                <img src="./anotherDog.png" alt="dog" class="img-fluid" />
               </div>
             </div>
           </div>
@@ -418,7 +226,7 @@ color: white;
 
             <div class="col-lg-4">
               <div class="" style="width: 18rem">
-                <img src="../Assets/dogone.png" class="card-img-top" alt="..." />
+                <img src="./dogone.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div class="text-center py-2">
                     <h5 class="card-title text-center bt m-3 "><del> $50</del> $30</h5>
@@ -430,7 +238,7 @@ color: white;
 
             <div class="col-lg-4">
               <div class="" style="width: 18rem">
-                <img src="../Assets/dogtwo.png" class="card-img-top" alt="..." />
+                <img src="./dogtwo.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div class="text-center py-2">
                     <h5 class="card-title text-center bt m-3 "><del> $50</del> $25</h5>
@@ -442,7 +250,7 @@ color: white;
 
             <div class="col-lg-4">
               <div class="" style="width: 18rem">
-                <img src="../Assets/dogthree.png" class="card-img-top" alt="..." />
+                <img src="./dogthree.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <div class="text-center py-2">
                     <h5 class="card-title text-center bt m-3 "><del> $40</del> $20</h5>
@@ -472,7 +280,7 @@ color: white;
 
             <div class="col-lg-4">
               <div class="" style="width: 18rem">
-                <img src="../Assets/dethree.png" class="card-img-top" alt="..." />
+                <img src="./dethree.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title text-center pt-4">Jennifer Mullen</h5>
                   <p class="card-text text-center m-1 ">
@@ -502,7 +310,7 @@ color: white;
 
             <div class="col-lg-4">
               <div class="" style="width: 18rem">
-                <img src="../Assets/drtwo.png" class="card-img-top" alt="..." />
+                <img src="./drtwo.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title text-center pt-4">Shereen Collins</h5>
                   <p class="card-text text-center m-1 ">
@@ -532,7 +340,7 @@ color: white;
 
             <div class="col-lg-4">
               <div class="" style="width: 18rem">
-                <img src="../Assets/dethree.png" class="card-img-top" alt="..." />
+                <img src="./dethree.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title text-center pt-4">Marry Dowsin</h5>
                   <p class="card-text text-center m-1">
@@ -572,7 +380,7 @@ color: white;
 
             <div class="col-lg-4 col-md-4 col-sm-12  ">
               <div class="text-center  " >
-                <img class="pic1" src="../Assets/icon1.png" class="card-img-top" alt="..." />
+                <img class="pic1" src="./icon1.png" class="card-img-top" alt="..." />
                 <div class="card-body mt-4">
                   <h5 class="card-title text-center p-2">+34793</h5>
                   <h3 class="card-title text-center  ">Happy clients.</h3>
@@ -582,7 +390,7 @@ color: white;
 
             <div class="col-lg-4 col-md-4 col-sm-12 ">
               <div class="text-center p-4 " >
-                <img class="pic1" src="../Assets/icon2.png" class="card-img-top" alt="..." />
+                <img class="pic1" src="./icon2.png" class="card-img-top" alt="..." />
                 <div class="card-body mt-4">
                   <h5 class="card-title text-center p-2 ">+45382</h5>
                   <h3 class="card-title text-center  ">Departament</h3>
@@ -592,7 +400,7 @@ color: white;
 
             <div class="col-lg-4 col-md-4 col-sm-12 ">
               <div class="text-center  ">
-                <img class="pic1  " src="../Assets/icon3.png" class="card-img-top" alt="..." />
+                <img class="pic1  " src="./icon3.png" class="card-img-top" alt="..." />
                 <div class="card-body mt-4 ">
                   <h5 class="card-title text-center  p-2 ">+54762</h5>
                   <h3 class="card-title text-center  ">Vacinnation</h3>
@@ -620,7 +428,7 @@ color: white;
 
             <div class=" col-lg-4 col-md-4 col-sm-12">
               <div class=" card  " style="width: 18rem">
-                <img src="../Assets/blogpost1.png" class="card-img-top" alt="img" />
+                <img src="./blogpost1.png" class="card-img-top" alt="img" />
                 <div class="card-body  ">
                   <h5 class="card-title">As a veterianer and lover of animals</h5>
                   
@@ -637,7 +445,7 @@ color: white;
 
             <div  class=" col-lg-4 col-md-4 col-sm-12">
               <div class="card " style="width: 18rem">
-                <img src="../Assets/blogpost2.png" class="card-img-top" alt="..." />
+                <img src="./blogpost2.png" class="card-img-top" alt="..." />
                 <div class="card-body  ">
 
                   <h5 class="card-title">As a veterianer and lover of animals</h5
@@ -658,7 +466,7 @@ color: white;
 
             <div  class=" col-lg-4 col-md-4 col-sm-12">
               <div class="card  " style="width: 18rem">
-                <img src="../Assets/blogpost3.png" class="card-img-top" alt="..." />
+                <img src="./blogpost3.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">As a veterianer and lover of animals</h5
                     >
